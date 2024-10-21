@@ -1,0 +1,146 @@
+1
+BA Arabic
+
+ 
+
+
+2
+M.Sc. Biotechnology
+
+ 
+
+
+3
+M.Sc. Microbiology
+
+ 
+
+
+4
+M.Sc. Biochemistry
+
+ 
+
+
+5
+B.Sc. Microbiology
+
+ 
+
+
+6
+B.Sc. Biotechnology
+
+ 
+
+
+7
+BBA
+
+ 
+
+
+8
+Integrated M.Sc Chemistry
+
+ 
+
+
+9
+B.Com.Computer Application
+
+ 
+
+
+10
+B.Com Finance & Taxation
+
+ 
+
+
+11
+M.Sc. Computer Science
+
+ 
+
+
+12
+BCA
+
+ 
+
+
+13
+B.Sc. Electronics
+
+ 
+
+
+14
+M.Sc. Electronics
+
+ 
+
+
+15
+B.A. English Literature
+
+ 
+
+
+16
+M.A English
+
+ 
+
+
+17
+B.Voc Animation & Graphic Design
+
+ 
+
+
+18
+B.Voc Fashion Design & Management
+
+ 
+
+
+19
+B.Voc IIA
+
+ 
+
+
+20
+B.Voc Logistics Management
+
+ 
+
+
+21
+B.Voc MSFT
+
+ 
+
+
+22
+B.Voc SDSA
+
+ 
+
+
+23
+B.Voc Tourism Administration & Hospitality
+
+ 
+
+
+24
+M.A (Human Resource Management)
+
+ 
+
+
+25
+M.Sc Psychology

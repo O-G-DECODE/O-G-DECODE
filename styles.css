@@ -1,0 +1,160 @@
+/* General Style Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav-left li {
+    margin: 0 20px;
+}
+
+.nav-left li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-left li a:hover {
+    color: #ffcc00;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-right span {
+    color: white;
+    font-size: 16px;
+}
+
+.btn-login-nav {
+    color: #ffcc00;
+    background-color: #333;
+    border: 2px solid #ffcc00;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btn-login-nav:hover {
+    background-color: #555;
+}
+
+/* Home Section */
+.home-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Place the video behind the content */
+}
+
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1; /* Ensure the logo and text are above the video */
+}
+
+/* Centered Logo */
+.center-logo {
+    width: 150px; /* Adjust the size of your logo */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Centered Text */
+.centered h1 {
+    font-size: 60px;
+    line-height: 1;
+    text-align: center;
+    font-family: babas neue;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(45deg, rgb(0, 0, 0), rgb(0, 0, 0), rgb(255, 255, 255), rgb(0, 0, 0), rgb(0, 0, 0));
+    background-size: 400% 400%;
+    animation: animate 10s infinite linear;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0% 50%;
+    }
+    25% {
+        background-position: 100% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    75% {
+        background-position: 0% 100%;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+
+/* Buttons Styling */
+.btn-register, .btn-login {
+    padding: 15px 40px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+.btn-register {
+    background-color: #ffcc00;
+    color: #333;
+}
+
+.btn-register:hover {
+    background-color: #ff9900;
+}
+
+.btn-login {
+    background-color: #333;
+    color: #ffcc00;
+}
+
+.btn-login:hover {
+    background-color: #555;
+}
